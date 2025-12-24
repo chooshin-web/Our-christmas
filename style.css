@@ -1,0 +1,78 @@
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 900px;
+}
+
+.main-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* Clickable invisible areas */
+.click-area {
+  position: absolute;
+  cursor: pointer;
+}
+
+/* Adjust these positions if needed */
+.charlie {
+  top: 35%;
+  left: 42%;
+  width: 120px;
+  height: 150px;
+}
+
+.redhair {
+  top: 45%;
+  left: 65%;
+  width: 120px;
+  height: 150px;
+}
+
+.bluegirl {
+  top: 48%;
+  left: 55%;
+  width: 120px;
+  height: 150px;
+}
+
+/* Message box */
+.message-box {
+  display: none;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 20px;
+  width: 80%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  text-align: center;
+}
+.snoopy {
+  top: 65%;
+  left: 48%;
+  width: 120px;
+  height: 150px;
+}
+
+.message-box button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: none;
+  background: #ff5c5c;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You, Always 🤍</title>
+  <link rel="stylesheet" href="snoopy.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="ourlove.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" onclick="toggleMusic()">🎵 Music</button>
+
+<div class="container">
+  <img src="snoopy.jpg" class="snoopy-img">
+
+  <div class="password-box">
+    <input type="password" id="password" placeholder="Enter our password 💭">
+    <button onclick="checkPassword()">Unlock</button>
+  </div>
+
+  <div id="letter" class="letter"></div>
+</div>
+
+<script src="snoopy.js"></script>
+</body>
+</html>
